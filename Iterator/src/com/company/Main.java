@@ -10,7 +10,7 @@ public class Main {
         Random r = new Random();
 
         Integer[] arr = new Integer[10];
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = r.nextInt(100);
         }
 
@@ -20,5 +20,19 @@ public class Main {
                 myCollection) {
             System.out.println(i);
         }
+
+//        int a = 0;
+//        int b = 0;
+//        System.out.println(++a);
+//        System.out.println(b++);
+
+        String s = "hello";
+        System.out.println(s.toUpperCase());
+
+        String s1 = "hi, how are you?";
+        System.out.println(s1.toUpperCase());
+        System.out.println(s1);
+
+        System.out.println(s1.indexOf("how"));
     }
 }
